@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Producción Editorial — Del manuscrito al libro</title>
+<meta name="description" content="Estudio de producción editorial: maquetación, diseño de cubiertas, ebooks y consultoría para editoriales, autores e instituciones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,560;9..144,650&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">PE</span>
+      <span class="brand-word">Producción<em>Editorial</em></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <button class="nav-close" id="nav-close" aria-label="Cerrar menú">&times;</button>
+      <a href="#nosotros" data-nav>Nosotros</a>
+      <a href="#servicios" data-nav>Producción</a>
+      <a href="#ebooks" data-nav>Ebooks</a>
+      <a href="#consultoria" data-nav>Consultoría</a>
+      <a href="#formacion" data-nav>Formación</a>
+      <a href="#contacto" data-nav class="nav-cta">Contactar</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <p class="eyebrow">Estudio de producción editorial · desde 2003</p>
+      <h1 class="hero-title">
+        Del manuscrito<br>
+        al libro <span class="ital">que perdura</span>.
+      </h1>
+      <p class="hero-sub">
+        Corrección, maquetación, diseño de cubiertas y generación de ficheros
+        para impresión y ebook. El oficio editorial, con la tecnología al día.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Cuéntanos tu proyecto</a>
+        <a href="#servicios" class="btn btn-ghost">Ver qué hacemos ↓</a>
+      </div>
+    </div>
+
+    <div class="hero-stack" aria-hidden="true">
+      <div class="stack-shadow"></div>
+      <div class="page page-3"><span>PDF</span></div>
+      <div class="page page-2"><span>ePub · Mobi</span></div>
+      <div class="page page-1"><span>Maquetación</span></div>
+      <div class="cover">
+        <div class="cover-spine"></div>
+        <div class="cover-face">
+          <span class="cover-line l1"></span>
+          <span class="cover-line l2"></span>
+          <span class="cover-title">Manuscrito</span>
+        </div>
+      </div>
+    </div>
+
+    <button class="scroll-cue" id="scroll-cue" aria-label="Bajar a la siguiente sección">
+      <span>Scroll</span>
+      <svg width="14" height="22" viewBox="0 0 14 22"><path d="M7 1v18M1 13l6 6 6-6" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section" id="nosotros">
+    <div class="section-inner two-col">
+      <div class="col-label">
+        <p class="eyebrow">01 — Nosotros</p>
+        <h2 class="section-title">Veinte años<br>de oficio<br>editorial.</h2>
+      </div>
+      <div class="col-body">
+        <p>
+          Nuestra plataforma de servicios editoriales nace en 2003. Además de editar y
+          publicar obras propias, nos hemos especializado en aplicar las nuevas tecnologías
+          a la industria del libro, estudiando y satisfaciendo las necesidades de entidades
+          públicas, privadas y académicas con altas exigencias de producción.
+        </p>
+        <p>
+          Somos un equipo profesional multidisciplinar, joven y dinámico. Corrección,
+          maquetación, diseño de cubiertas e interiores, ilustración y generación de
+          ficheros ePub, Fixed Layout, PDF, Mobi, HTML o KF8: todo se realiza en nuestro
+          estudio, para que la obra del autor llegue a manos del lector con la mayor
+          profesionalidad.
+        </p>
+        <p class="lead-line">Estamos a su servicio.</p>
+
+        <div class="stat-row">
+          <div class="stat"><span class="stat-num">20+</span><span class="stat-label">años en el oficio</span></div>
+          <div class="stat"><span class="stat-num">30+</span><span class="stat-label">sellos editoriales</span></div>
+          <div class="stat"><span class="stat-num">4</span><span class="stat-label">países de clientes</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee-wrap" aria-label="Algunos de nuestros clientes">
+      <p class="eyebrow marquee-label">Algunos de nuestros clientes</p>
+      <div class="marquee">
+        <div class="marquee-track" id="marquee-track">
+          <!-- filled by JS, duplicated for seamless loop -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS / ESTANTERÍA -->
+  <section class="section section-dark" id="servicios">
+    <div class="section-inner">
+      <p class="eyebrow">02 — Producción editorial</p>
+      <h2 class="section-title light">Un estante,<br>tres oficios.</h2>
+      <p class="section-intro">
+        Cada libro es distinto y cada editorial también. Explora cada lomo para ver cómo
+        trabajamos cada etapa de la producción.
+      </p>
+
+      <div class="shelf" id="shelf">
+        <button class="spine" data-index="0" aria-expanded="true">
+          <span class="spine-num">01</span>
+          <span class="spine-word">Libros</span>
+        </button>
+        <button class="spine" data-index="1" aria-expanded="false">
+          <span class="spine-num">02</span>
+          <span class="spine-word">Diseño</span>
+        </button>
+        <button class="spine" data-index="2" aria-expanded="false">
+          <span class="spine-num">03</span>
+          <span class="spine-word">Maquetación</span>
+        </button>
+
+        <div class="shelf-panel" id="shelf-panel">
+          <h3 id="panel-title">Libros</h3>
+          <p id="panel-text">
+            El libro está hecho para pensar, expresar y comunicar las historias que el
+            autor escribe pensando en el lector. Nuestra misión es plasmar esas ideas y
+            emociones en ese objeto maravilloso: el libro.
+          </p>
+        </div>
+      </div>
+      <div class="shelf-ledge" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- EBOOKS -->
+  <section class="section" id="ebooks">
+    <div class="section-inner two-col reverse">
+      <div class="col-body">
+        <p class="eyebrow">03 — Ebooks</p>
+        <h2 class="section-title">Un mismo<br>proceso, todos<br>los formatos.</h2>
+        <p>
+          Siempre que es posible, del mismo proceso de maquetación obtendrá los archivos
+          para comercializar sus ebooks en cualquier plataforma, junto con los ficheros
+          listos para impresión.
+        </p>
+        <p>
+          Cuando no es posible hacerlo en un único proceso, optimizamos la producción para
+          que el coste, en tiempo y recursos, sea el óptimo. También le ayudamos a digitalizar
+          su fondo editorial en el formato más adecuado para sus publicaciones.
+        </p>
+        <ul class="format-list">
+          <li>ePub &amp; ePub Fixed Layout</li>
+          <li>MOBI &amp; KF8</li>
+          <li>PDF de alta fidelidad</li>
+          <li>HTML enriquecido</li>
+        </ul>
+      </div>
+      <div class="col-visual">
+        <div class="reader" aria-hidden="true">
+          <div class="reader-screen">
+            <span class="reader-line w70"></span>
+            <span class="reader-line w100"></span>
+            <span class="reader-line w100"></span>
+            <span class="reader-line w40"></span>
+            <span class="reader-line w100"></span>
+            <span class="reader-line w85"></span>
+            <span class="reader-page-num">— 42 —</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSULTORÍA -->
+  <section class="section section-tint" id="consultoria">
+    <div class="section-inner two-col">
+      <div class="col-label">
+        <p class="eyebrow">04 — Consultoría editorial</p>
+        <h2 class="section-title">Objetivos<br>claros, ruta<br>clara.</h2>
+      </div>
+      <div class="col-body">
+        <p>
+          Ayudamos a su editorial a conseguir sus objetivos. Analizamos, estudiamos,
+          diagnosticamos y acompañamos a nuestros clientes en todo el proceso.
+        </p>
+        <div class="checklist">
+          <div class="check-item">
+            <span class="check-mark">✓</span>
+            <div>
+              <h4>Revisión de costes</h4>
+              <p>Reducción de gastos y mejora de los procesos de producción.</p>
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="check-mark">✓</span>
+            <div>
+              <h4>Nuevos mercados</h4>
+              <p>Análisis de mercados y apoyo a la internacionalización.</p>
+            </div>
+          </div>
+          <div class="check-item">
+            <span class="check-mark">✓</span>
+            <div>
+              <h4>Diagnóstico de negocio</h4>
+              <p>Situación actual y posibilidades de crecimiento reales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMACIÓN -->
+  <section class="section" id="formacion">
+    <div class="section-inner">
+      <p class="eyebrow">05 — Formación</p>
+      <h2 class="section-title">Al servicio del<br>eCommerce editorial.</h2>
+      <p class="section-intro">
+        Acompañamos a librerías y distribuidoras en la nueva era digital y ante los
+        desafíos del comercio electrónico. Analizamos la situación de su negocio o
+        proyecto y le ayudamos a crecer de forma sostenible y adecuada a su entorno
+        y objetivos.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-dark" id="contacto">
+    <div class="section-inner two-col">
+      <div class="col-label">
+        <p class="eyebrow">06 — Contacto</p>
+        <h2 class="section-title light">¿Tienes un<br>proyecto?</h2>
+        <p class="contact-info">
+          Plaça Vila Romana 3, 1º-3 B<br>
+          43800 Valls · Tarragona · España<br><br>
+          <a href="tel:+34977603337">0034 977 603 337</a><br>
+          <a href="tel:+34661218235">0034 661 218 235</a>
+        </p>
+      </div>
+      <div class="col-body">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <input type="text" id="name" name="name" placeholder=" " required>
+            <label for="name">Nombre</label>
+            <span class="field-error" data-error-for="name">Escribe tu nombre.</span>
+          </div>
+          <div class="field">
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">E-mail</label>
+            <span class="field-error" data-error-for="email">Introduce un e-mail válido.</span>
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+            <label for="message">Cuéntanos tu proyecto</label>
+            <span class="field-error" data-error-for="message">Escribe tu mensaje.</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-wide">
+            <span class="btn-text">Enviar mensaje</span>
+          </button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Producción Editorial · Todos los derechos reservados</span>
+    <a href="#top" class="to-top" id="to-top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
