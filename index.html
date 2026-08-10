@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Producción Editorial — Del manuscrito al libro</title>
-<meta name="description" content="Estudio de producción editorial: maquetación, diseño de cubiertas, ebooks y consultoría para editoriales, autores e instituciones.">
+<title>Editorial Constructores del Saber EIRL — Del manuscrito al libro</title>
+<meta name="description" content="Editorial Constructores del Saber EIRL: producción editorial, maquetación, diseño de cubiertas, ebooks y consultoría para editoriales, autores e instituciones.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='0' y2='0'%3E%3Cstop offset='0%25' stop-color='%235A2020'/%3E%3Cstop offset='35%25' stop-color='%237A2E2E'/%3E%3Cstop offset='68%25' stop-color='%238C4A2F'/%3E%3Cstop offset='100%25' stop-color='%23A9832B'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='120' height='120' rx='16' fill='%23F3ECDE'/%3E%3Crect x='14' y='86' width='92' height='13' rx='2' fill='url(%23g)'/%3E%3Crect x='26' y='69' width='68' height='13' rx='2' fill='url(%23g)'/%3E%3Crect x='38' y='52' width='44' height='13' rx='2' fill='url(%23g)'/%3E%3Crect x='50' y='35' width='20' height='13' rx='2' fill='url(%23g)'/%3E%3Cpath d='M60 34 L30 21 L30 15 L60 25 Z' fill='%237A2E2E'/%3E%3Cpath d='M60 34 L90 21 L90 15 L60 25 Z' fill='%23A9832B'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,560;9..144,650&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -18,9 +19,35 @@
 
 <header class="site-header" id="top">
   <div class="header-inner">
-    <a href="#top" class="brand">
-      <span class="brand-mark">PE</span>
-      <span class="brand-word">Producción<em>Editorial</em></span>
+    <a href="#top" class="brand" aria-label="Editorial Constructores del Saber EIRL — inicio">
+      <svg class="brand-mark" viewBox="0 0 120 120" role="img" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="csGrad" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="#5A2020"/>
+            <stop offset="35%" stop-color="#7A2E2E"/>
+            <stop offset="68%" stop-color="#8C4A2F"/>
+            <stop offset="100%" stop-color="#A9832B"/>
+          </linearGradient>
+        </defs>
+        <!-- bloques escalonados: "constructores" -->
+        <rect x="12" y="86" width="96" height="14" rx="2" fill="url(#csGrad)"/>
+        <rect x="24" y="68" width="72" height="14" rx="2" fill="url(#csGrad)" opacity="0.95"/>
+        <rect x="36" y="50" width="48" height="14" rx="2" fill="url(#csGrad)" opacity="0.9"/>
+        <rect x="48" y="32" width="24" height="14" rx="2" fill="url(#csGrad)" opacity="0.85"/>
+        <!-- crestas de lomo -->
+        <line x1="60" y1="86" x2="60" y2="100" stroke="#F3ECDE" stroke-width="1.6" opacity=".55"/>
+        <line x1="60" y1="68" x2="60" y2="82" stroke="#F3ECDE" stroke-width="1.6" opacity=".55"/>
+        <line x1="60" y1="50" x2="60" y2="64" stroke="#F3ECDE" stroke-width="1.6" opacity=".55"/>
+        <line x1="60" y1="32" x2="60" y2="46" stroke="#F3ECDE" stroke-width="1.6" opacity=".55"/>
+        <!-- libro abierto: "del saber" -->
+        <path d="M60 34 L28 20 L28 13 L60 24 Z" fill="#7A2E2E"/>
+        <path d="M60 34 L92 20 L92 13 L60 24 Z" fill="#A9832B"/>
+      </svg>
+      <span class="brand-word">
+        <em class="brand-eyebrow">Editorial</em>
+        <span class="brand-name">Constructores <i>del Saber</i></span>
+        <span class="brand-tag">EIRL</span>
+      </span>
     </a>
 
     <nav class="main-nav" id="main-nav">
@@ -293,7 +320,17 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
-    <span>© <span id="year"></span> Producción Editorial · Todos los derechos reservados</span>
+    <span class="footer-brand">
+      <svg class="footer-mark" viewBox="0 0 120 120" role="img" aria-hidden="true" focusable="false">
+        <rect x="12" y="86" width="96" height="14" rx="2" fill="#A9832B"/>
+        <rect x="24" y="68" width="72" height="14" rx="2" fill="#A9832B" opacity=".85"/>
+        <rect x="36" y="50" width="48" height="14" rx="2" fill="#A9832B" opacity=".7"/>
+        <rect x="48" y="32" width="24" height="14" rx="2" fill="#A9832B" opacity=".55"/>
+        <path d="M60 34 L28 20 L28 13 L60 24 Z" fill="#A9832B" opacity=".6"/>
+        <path d="M60 34 L92 20 L92 13 L60 24 Z" fill="#A9832B" opacity=".85"/>
+      </svg>
+      © <span id="year"></span> Editorial Constructores del Saber EIRL · Todos los derechos reservados
+    </span>
     <a href="#top" class="to-top" id="to-top">Volver arriba ↑</a>
   </div>
 </footer>
