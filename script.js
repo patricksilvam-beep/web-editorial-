@@ -82,12 +82,20 @@
       text: "El libro está hecho para pensar, expresar y comunicar las historias que el autor escribe pensando en el lector. Nuestra misión es plasmar esas ideas y emociones en ese objeto maravilloso: el libro."
     },
     {
-      title: "Diseño",
-      text: "El libro se piensa y se siente para ser leído y disfrutado. Algo aparentemente simple exige un trabajo exhaustivo, exclusivo y delicado, que nuestro equipo realiza cada día con el mimo que merece cada obra."
+      title: "Revistas",
+      text: "Diseño y maquetación de revistas periódicas y publicaciones institucionales: portadas con carácter, interiores ágiles y ficheros listos para imprenta en cada nueva edición."
     },
     {
-      title: "Maquetación",
-      text: "Cada cliente es distinto, y también lo son sus necesidades y publicaciones. Personalizamos cada proyecto para lograr resultados que se ajusten a la perfección a las exigencias de cada editorial."
+      title: "Brochures & folletos",
+      text: "Piezas comerciales que comunican con claridad y estilo. Diseñamos y maquetamos brochures y folletos que representan la identidad de su marca ante clientes y socios."
+    },
+    {
+      title: "Trifolios & cuatrifolios",
+      text: "Plegables trifolios y cuatrifolios pensados para el doblez y la lectura: diagramación precisa, artes finales y archivos listos para producción gráfica sin sorpresas."
+    },
+    {
+      title: "Cuadernillos",
+      text: "Cuadernillos, catálogos y encartes con maquetación cuidada, numeración e imposición correcta, adaptados al sistema de impresión y encuadernación que necesite su proyecto."
     }
   ];
   const spines = Array.from(document.querySelectorAll(".spine"));
